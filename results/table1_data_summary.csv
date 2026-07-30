@@ -1,0 +1,11 @@
+Quantity,Value
+Total records ($N$),"11,814"
+Presence records ($N_s$),"1,619"
+Background records ($N_b$),"10,195"
+Sample prevalence,0.137
+Environmental predictors,10
+Locational information,none published
+"Entropy cells ($K$, default)","100, varied over 25–400"
+Cell construction,$k$-means partition of the standardised covariate space
+Cross-validation,10-fold stratified; 5-fold watershed-blocked
+Random seed,42

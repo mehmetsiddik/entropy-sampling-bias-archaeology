@@ -1,0 +1,12 @@
+,value
+"J presence, K=100",0.878
+"J background, K=100",0.988
+"KL, K=25",0.27
+"KL, K=400",1.02
+mean realised weight,1.0
+largest |AUC difference|,0.0007
+"RF AUC, random CV",0.932
+"RF AUC, blocked CV",0.829
+"best-worst margin, random",0.156
+"best-worst margin, blocked",0.093
+K-sensitivity AUC range,0.9255 to 0.9273
