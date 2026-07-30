@@ -7,11 +7,13 @@
   "creators": [
     {
       "name": "Çadırcı, Mehmet Sıddık",
-      "affiliation": "Department of Statistics, Sivas Cumhuriyet University, Sivas, Türkiye"
+      "affiliation": "Department of Statistics, Sivas Cumhuriyet University, Sivas, Türkiye",
+      "orcid": "0000-0001-7654-7609"
     },
     {
       "name": "Shahtahmassebi, Golnaz",
-      "affiliation": "Department of Computer Science, Nottingham Trent University, Nottingham, UK"
+      "affiliation": "Department of Computer Science, Nottingham Trent University, Nottingham, UK",
+      "orcid": "0000-0002-0630-2750"
     }
   ],
   "keywords": [
