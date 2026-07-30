@@ -12,9 +12,11 @@ authors:
   - family-names: "Çadırcı"
     given-names: "Mehmet Sıddık"
     affiliation: "Department of Statistics, Sivas Cumhuriyet University, Sivas, Türkiye"
+    orcid: "https://orcid.org/0000-0001-7654-7609"
   - family-names: "Shahtahmassebi"
     given-names: "Golnaz"
     affiliation: "Department of Computer Science, Nottingham Trent University, Nottingham, UK"
+    orcid: "https://orcid.org/0000-0002-0630-2750"
 keywords:
   - entropy
   - sampling bias
