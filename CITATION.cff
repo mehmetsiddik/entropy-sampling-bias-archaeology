@@ -12,11 +12,9 @@ authors:
   - family-names: "Çadırcı"
     given-names: "Mehmet Sıddık"
     affiliation: "Department of Statistics, Sivas Cumhuriyet University, Sivas, Türkiye"
-    # orcid: "https://orcid.org/0000-0000-0000-0000"   # <-- add yours
   - family-names: "Shahtahmassebi"
     given-names: "Golnaz"
     affiliation: "Department of Computer Science, Nottingham Trent University, Nottingham, UK"
-    # orcid: "https://orcid.org/0000-0000-0000-0000"   # <-- add hers
 keywords:
   - entropy
   - sampling bias
@@ -24,4 +22,4 @@ keywords:
   - spatially blocked cross-validation
   - presence-background models
   - information theory
-repository-code: repository-code: "https://github.com/mehmetsiddik/entropy-sampling-bias-archaeology"
+repository-code: "https://github.com/mehmetsiddik/entropy-sampling-bias-archaeology"
