@@ -11,7 +11,8 @@ whether applying them changes what four standard predictive frameworks predict.
 ## Quick start
 
 ```bash
-git clone https://github.com/<user>/<repo>.git
+git clone git clone https://github.com/mehmetsiddik/entropy-sampling-bias-archaeology.git
+cd entropy-sampling-bias-archaeology
 cd <repo>
 pip install -r requirements.txt
 jupyter notebook Entropy_Sampling_Bias.ipynb
