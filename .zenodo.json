@@ -1,9 +1,10 @@
 {
-  "title": "Entropy-Based Diagnosis of Sampling Bias in Archaeological Predictive Modeling",
-  "description": "<p>Code and derived data for an information-theoretic diagnostic of coverage imbalance in archaeological predictive modelling. Computes the Shannon entropy of the distribution of recorded sites across a partition of covariate space, derives observation weights in closed form as the normalised surprisal, and tests whether applying them changes the predictions of four frameworks (Random Forest, penalised-spline logistic GAM, MaxEnt in penalised-logistic form, and non-spatial Bayesian logistic regression) under both random and catchment-blocked cross-validation.</p><p>The input dataset is the published supplementary data of Yaworsky et al. (2020) for the Grand Staircase-Escalante National Monument, archived at tDAR (doi:10.6067/XCV8457626). It contains no coordinates: archaeological site locations in the United States are withheld under statutory protection. All entropy quantities are therefore defined over covariate space rather than geographic space.</p>",
+  "title": "Entropy diagnostics of coverage imbalance and reweighting in archaeological predictive modelling",
+  "description": "<p>Code and derived data for an information-theoretic diagnostic of coverage imbalance in archaeological predictive modelling. Computes the Shannon entropy of the distribution of recorded sites across a partition of covariate space, derives a heuristic observation weight from the normalised surprisal, and tests whether this and standard weights (inverse frequency, density ratio) change the predictions of four frameworks (Random Forest, penalised-spline logistic GAM, MaxEnt in penalised-logistic form, and non-spatial Bayesian logistic regression) under both random and catchment-blocked cross-validation.</p><p>The input dataset is the published supplementary data of Yaworsky et al. (2020) for the Grand Staircase-Escalante National Monument, archived at tDAR (doi:10.6067/XCV8457626). It contains no coordinates: archaeological site locations in the United States are withheld under statutory protection. All entropy quantities are therefore defined over covariate space rather than geographic space.</p><p>Version 1.1 adds the analyses requested during peer review (alternative weights, partition comparisons, blocked-design sensitivity checks, training-fold thresholds and a simulation with a known survey mechanism) and pins package versions.</p>",
   "upload_type": "software",
   "license": "MIT",
   "access_right": "open",
+  "version": "v1.1",
   "creators": [
     {
       "name": "Çadırcı, Mehmet Sıddık",
@@ -18,10 +19,11 @@
   ],
   "keywords": [
     "entropy",
+    "coverage imbalance",
     "sampling bias",
     "archaeological predictive modeling",
+    "importance weighting",
     "spatially blocked cross-validation",
-    "presence-background models",
     "information theory"
   ],
   "related_identifiers": [
