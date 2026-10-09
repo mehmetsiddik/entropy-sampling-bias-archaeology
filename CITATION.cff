@@ -1,10 +1,11 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: "Entropy-Based Diagnosis of Sampling Bias in Archaeological Predictive Modeling"
+title: "Entropy diagnostics of coverage imbalance and reweighting in archaeological predictive modelling"
+version: "1.1"
 abstract: >-
   Code and derived data for an information-theoretic diagnostic of coverage
-  imbalance in archaeological predictive modelling, a closed-form entropy
-  weighting function, and a comparison of four predictive frameworks under
+  imbalance in archaeological predictive modelling, a heuristic entropy
+  weight compared with standard weighting schemes, and a comparison of four predictive frameworks under
   random and spatially blocked cross-validation.
 type: software
 license: MIT

@@ -13,7 +13,7 @@ whether applying them changes what four standard predictive frameworks predict.
 ```bash
 git clone https://github.com/mehmetsiddik/entropy-sampling-bias-archaeology.git
 cd entropy-sampling-bias-archaeology
-pip install -r requirements.txt
+pip install -r requirements.txt   # Python 3.11; versions are pinned
 jupyter notebook Entropy_Sampling_Bias.ipynb
 ```
 
@@ -56,7 +56,9 @@ The numerator is the surprisal of cell `i` and the denominator is its
 expectation under `P`, which gives the weights three properties the notebook
 verifies on the data:
 
-- **unit mean**, so effective sample size and class balance are unchanged;
+- **unit mean**, so the total presence weight and class balance are unchanged
+  (unit mean does not preserve the Kish effective sample size, which falls
+  slightly, to about 0.985 n at K = 100);
 - **identity under uniform coverage** — if `p_i = 1/K` for all `i` then every
   weight is exactly 1, so no correction is applied where there is no imbalance;
 - **strict positivity**, so no record is dropped from training.
@@ -95,11 +97,36 @@ Two consequences run through the whole analysis:
 
 ## Reproducibility
 
+**Package versions matter.** The assignment of catchments to grouped folds by
+scikit-learn's `GroupKFold` changes between versions of scikit-learn and numpy.
+The archived results were produced with Python 3.11, scikit-learn 1.3.0 and
+numpy 1.24.3, which `requirements.txt` pins. With recent versions the
+random-split results are almost identical, but the blocked results differ
+(e.g. Random Forest AUC 0.797 instead of 0.829).
+
 A single seed (42) governs all partitioning, clustering and model fitting, so
 results are reproducible exactly rather than only in distribution. The notebook
 prints the package versions it ran under, together with a formatted sentence for
 the manuscript, and ends with a table of every headline number so that the paper
 and the code can be checked against each other.
+
+## Revision analyses (v1.1)
+
+The folder `revision/` contains the analyses added during peer review:
+
+| Script | What it does |
+|---|---|
+| `exp_main.py E1` | entropy, inverse-frequency and density-ratio weights; four models; both designs; thresholds chosen on the training fold |
+| `exp_main.py E2` | blocked comparison with `wtrshd_size` removed from the predictors |
+| `exp_main.py E3` | z-scoring instead of min-max scaling |
+| `exp_main.py E4` | ten blocked folds; repeated random and blocked fold allocations |
+| `exp_main.py E7` | resolution sensitivity for the entropy and density-ratio weights |
+| `exp_diag.py` | evenness on pooled, presence-only, background-only and fixed-grid partitions; weight ranges and Kish effective sample size; PCA check for Figure 3 |
+| `exp_sim.py` | simulation with a known survey mechanism (reported in the response to reviewers) |
+| `fig3_new.py`, `sim_fig.py` | revised Figure 3 and the simulation figure |
+
+Outputs are in `revision/results/`; the revised Figure 3 and the simulation
+figure are in `figures/`. See `revision/README.md` for the run order.
 
 ## Licence
 

@@ -8,7 +8,8 @@ The weight applied to a record in cell i is
     w_i  = -ln(p_i) / H(P)          normalised surprisal
 
 Properties, all verifiable on the data:
-  * E_P[w] = 1 exactly, so effective sample size and class balance are unchanged
+  * E_P[w] = 1 exactly, so the total presence weight and class balance are unchanged
+    (the Kish effective sample size is reduced slightly, to about 0.985 n at K = 100)
   * p_i = 1/K for all i  =>  w_i = 1 for all i, i.e. no correction when coverage
     is already uniform
   * w_i > 0 always, so no record is ever dropped from training
