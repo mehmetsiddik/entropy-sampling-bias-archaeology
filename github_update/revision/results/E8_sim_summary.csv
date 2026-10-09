@@ -1,0 +1,81 @@
+learner,background,gamma,weighting,AUC,AUCsd,rho,rhosd,ESS
+GAM,representative,0.0,density_ratio,0.7599,0.0142,0.9005,0.0141,0.7216
+GAM,representative,0.0,entropy,0.7791,0.0132,0.9662,0.0059,0.9881
+GAM,representative,0.0,ipw_uniform,0.7618,0.0144,0.8955,0.0196,0.6326
+GAM,representative,0.0,oracle_1/s,0.7797,0.0132,0.9686,0.0065,1.0
+GAM,representative,0.0,unweighted,0.7797,0.0132,0.9686,0.0065,1.0
+GAM,representative,1.5,density_ratio,0.7518,0.0152,0.8782,0.0115,0.692
+GAM,representative,1.5,entropy,0.7723,0.0137,0.9438,0.0048,0.9872
+GAM,representative,1.5,ipw_uniform,0.7591,0.0156,0.8928,0.0211,0.6057
+GAM,representative,1.5,oracle_1/s,0.7777,0.0125,0.9622,0.0067,0.9033
+GAM,representative,1.5,unweighted,0.7719,0.0136,0.9423,0.0048,1.0
+GAM,representative,3.0,density_ratio,0.7336,0.0138,0.8262,0.0117,0.661
+GAM,representative,3.0,entropy,0.7542,0.0127,0.8879,0.006,0.9872
+GAM,representative,3.0,ipw_uniform,0.7466,0.0163,0.8593,0.017,0.6229
+GAM,representative,3.0,oracle_1/s,0.7731,0.0128,0.9529,0.0108,0.6636
+GAM,representative,3.0,unweighted,0.7533,0.0118,0.8839,0.0064,1.0
+GAM,representative,4.5,density_ratio,0.7155,0.0172,0.7552,0.045,0.6267
+GAM,representative,4.5,entropy,0.7319,0.0147,0.7989,0.0285,0.9872
+GAM,representative,4.5,ipw_uniform,0.7257,0.0139,0.7737,0.0325,0.6175
+GAM,representative,4.5,oracle_1/s,0.769,0.0108,0.9315,0.0097,0.4291
+GAM,representative,4.5,unweighted,0.7316,0.0149,0.7982,0.0276,1.0
+GAM,survey-biased,0.0,density_ratio,0.7591,0.0144,0.899,0.0153,0.7192
+GAM,survey-biased,0.0,entropy,0.7791,0.0134,0.9668,0.0052,0.9881
+GAM,survey-biased,0.0,ipw_uniform,0.762,0.0153,0.8975,0.0201,0.6326
+GAM,survey-biased,0.0,oracle_1/s,0.7796,0.0132,0.9691,0.0055,1.0
+GAM,survey-biased,0.0,unweighted,0.7796,0.0132,0.9691,0.0055,1.0
+GAM,survey-biased,1.5,density_ratio,0.7555,0.0152,0.8876,0.0118,0.7151
+GAM,survey-biased,1.5,entropy,0.7768,0.0135,0.9582,0.0057,0.9872
+GAM,survey-biased,1.5,ipw_uniform,0.7601,0.0157,0.8945,0.0242,0.6057
+GAM,survey-biased,1.5,oracle_1/s,0.7742,0.0123,0.9497,0.0103,0.9033
+GAM,survey-biased,1.5,unweighted,0.7768,0.0133,0.9582,0.0046,1.0
+GAM,survey-biased,3.0,density_ratio,0.744,0.0146,0.8597,0.0134,0.7205
+GAM,survey-biased,3.0,entropy,0.7668,0.0134,0.9331,0.0077,0.9872
+GAM,survey-biased,3.0,ipw_uniform,0.752,0.017,0.8773,0.0239,0.6229
+GAM,survey-biased,3.0,oracle_1/s,0.7606,0.0127,0.9102,0.0157,0.6636
+GAM,survey-biased,3.0,unweighted,0.7666,0.0125,0.9315,0.0079,1.0
+GAM,survey-biased,4.5,density_ratio,0.7296,0.0157,0.8027,0.037,0.7135
+GAM,survey-biased,4.5,entropy,0.7507,0.0132,0.8664,0.0253,0.9872
+GAM,survey-biased,4.5,ipw_uniform,0.7408,0.0122,0.8239,0.0256,0.6175
+GAM,survey-biased,4.5,oracle_1/s,0.7519,0.0152,0.8727,0.0286,0.4291
+GAM,survey-biased,4.5,unweighted,0.7502,0.0136,0.8654,0.0252,1.0
+Random Forest,representative,0.0,density_ratio,0.7535,0.0134,0.8484,0.0101,0.7216
+Random Forest,representative,0.0,entropy,0.7565,0.0128,0.8527,0.0128,0.9881
+Random Forest,representative,0.0,ipw_uniform,0.7531,0.012,0.8374,0.0115,0.6326
+Random Forest,representative,0.0,oracle_1/s,0.759,0.0124,0.8545,0.0115,1.0
+Random Forest,representative,0.0,unweighted,0.759,0.0124,0.8545,0.0115,1.0
+Random Forest,representative,1.5,density_ratio,0.746,0.0178,0.8313,0.0145,0.692
+Random Forest,representative,1.5,entropy,0.7496,0.0155,0.8363,0.0128,0.9872
+Random Forest,representative,1.5,ipw_uniform,0.7458,0.0157,0.8311,0.0147,0.6057
+Random Forest,representative,1.5,oracle_1/s,0.7537,0.0156,0.8505,0.0141,0.9033
+Random Forest,representative,1.5,unweighted,0.751,0.0147,0.8347,0.0132,1.0
+Random Forest,representative,3.0,density_ratio,0.7249,0.0172,0.7674,0.0125,0.661
+Random Forest,representative,3.0,entropy,0.7291,0.0156,0.7748,0.0097,0.9872
+Random Forest,representative,3.0,ipw_uniform,0.7285,0.0179,0.7755,0.01,0.6229
+Random Forest,representative,3.0,oracle_1/s,0.7486,0.0158,0.8343,0.0063,0.6636
+Random Forest,representative,3.0,unweighted,0.7288,0.0159,0.7705,0.0101,1.0
+Random Forest,representative,4.5,density_ratio,0.7005,0.0141,0.681,0.0341,0.6267
+Random Forest,representative,4.5,entropy,0.7069,0.0131,0.6831,0.0329,0.9872
+Random Forest,representative,4.5,ipw_uniform,0.7058,0.0122,0.6802,0.0319,0.6175
+Random Forest,representative,4.5,oracle_1/s,0.7392,0.0119,0.7944,0.0238,0.4291
+Random Forest,representative,4.5,unweighted,0.7056,0.0143,0.6838,0.0314,1.0
+Random Forest,survey-biased,0.0,density_ratio,0.7547,0.0138,0.8488,0.0124,0.7192
+Random Forest,survey-biased,0.0,entropy,0.7569,0.0138,0.8555,0.0121,0.9881
+Random Forest,survey-biased,0.0,ipw_uniform,0.7532,0.0124,0.8394,0.0143,0.6326
+Random Forest,survey-biased,0.0,oracle_1/s,0.758,0.0132,0.8577,0.0132,1.0
+Random Forest,survey-biased,0.0,unweighted,0.758,0.0132,0.8577,0.0132,1.0
+Random Forest,survey-biased,1.5,density_ratio,0.7483,0.0179,0.8425,0.0165,0.7151
+Random Forest,survey-biased,1.5,entropy,0.7521,0.0156,0.85,0.0141,0.9872
+Random Forest,survey-biased,1.5,ipw_uniform,0.7488,0.0165,0.8369,0.0158,0.6057
+Random Forest,survey-biased,1.5,oracle_1/s,0.7538,0.0162,0.8533,0.0155,0.9033
+Random Forest,survey-biased,1.5,unweighted,0.754,0.0157,0.8494,0.015,1.0
+Random Forest,survey-biased,3.0,density_ratio,0.7403,0.018,0.817,0.0097,0.7205
+Random Forest,survey-biased,3.0,entropy,0.744,0.0154,0.826,0.0073,0.9872
+Random Forest,survey-biased,3.0,ipw_uniform,0.7412,0.016,0.8151,0.0115,0.6229
+Random Forest,survey-biased,3.0,oracle_1/s,0.7488,0.0163,0.8462,0.0076,0.6636
+Random Forest,survey-biased,3.0,unweighted,0.7446,0.0155,0.8272,0.0087,1.0
+Random Forest,survey-biased,4.5,density_ratio,0.727,0.0152,0.7652,0.0268,0.7135
+Random Forest,survey-biased,4.5,entropy,0.7338,0.013,0.7746,0.0245,0.9872
+Random Forest,survey-biased,4.5,ipw_uniform,0.7305,0.013,0.766,0.0238,0.6175
+Random Forest,survey-biased,4.5,oracle_1/s,0.75,0.0127,0.8269,0.0146,0.4291
+Random Forest,survey-biased,4.5,unweighted,0.7338,0.0139,0.7769,0.0234,1.0

@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Entropy diagnostics of coverage imbalance and reweighting in archaeological predictive modelling"
+version: "1.1"
+abstract: >-
+  Code and derived data for an information-theoretic diagnostic of coverage
+  imbalance in archaeological predictive modelling, a heuristic entropy
+  weight compared with standard weighting schemes, and a comparison of four predictive frameworks under
+  random and spatially blocked cross-validation.
+type: software
+license: MIT
+authors:
+  - family-names: "Çadırcı"
+    given-names: "Mehmet Sıddık"
+    affiliation: "Department of Statistics, Sivas Cumhuriyet University, Sivas, Türkiye"
+    orcid: "https://orcid.org/0000-0001-7654-7609"
+  - family-names: "Shahtahmassebi"
+    given-names: "Golnaz"
+    affiliation: "Department of Computer Science, Nottingham Trent University, Nottingham, UK"
+    orcid: "https://orcid.org/0000-0002-0630-2750"
+keywords:
+  - entropy
+  - sampling bias
+  - archaeological predictive modeling
+  - spatially blocked cross-validation
+  - presence-background models
+  - information theory
+repository-code: "https://github.com/mehmetsiddik/entropy-sampling-bias-archaeology"
