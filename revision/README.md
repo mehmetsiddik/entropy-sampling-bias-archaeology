@@ -21,3 +21,4 @@ Run from inside this folder (`cd revision`); about 3 h on 2 cores:
     python summ.py results/E1.csv ; python sim_fig.py ; python fig3_new.py
 
 `results/` holds the CSV/JSON outputs used in the revised manuscript.
+python make_figs.py          # regenerate all manuscript figures from results/
